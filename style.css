@@ -1,0 +1,84 @@
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Reenie Beanie';
+    background-color:rgb(202, 247, 247);
+}
+
+header {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-evenly;
+    }
+
+#logo {
+    font-size: 5em;
+    margin: 0 1em 0 -1em;
+    float: left;
+}
+
+@media screen and (max-width: 800px) {
+    #logo {
+        display:none;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    header h1 {
+    padding-left: 2em;
+    }
+}   
+
+header nav {
+    margin-right: 3em;;
+}
+
+.container {
+    max-width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1em;
+    }
+
+.container h3 {
+    flex: 1 1 100%;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+figure {
+    flex: 1 0%;
+    width: 30%;
+    overflow: hidden;
+    height: 12.5;
+    margin: 0 0.5em 1em 0.5em;
+    }
+
+.container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+#frühling {
+    background-image: url(./Bilder/Frühling.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#sommer {
+    background-image: url(./Bilder/Sommer.webp);
+    background-repeat: no-repeat;
+}
+
+#herbst {
+    background-image: url(./Bilder/Herbst.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#winter {
+    background-image: url(./Bilder/Winter.webp);
+    background-repeat: no-repeat;
+}
